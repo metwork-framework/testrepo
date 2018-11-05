@@ -1,5 +1,5 @@
 # testrepo
-test repo (do not use)
+Gtest repo (do not use)
 integration
 eeee
 
