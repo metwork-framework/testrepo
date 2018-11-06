@@ -16,6 +16,8 @@ pull_request_rules:
         - Merge Now
   conditions:
     - base=integration
+    - -merged
+    - -closed
     - label!=no-mergify
     - '#approved-reviews-by>=1'
     - status-success=license/cla
