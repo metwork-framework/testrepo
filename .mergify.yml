@@ -19,8 +19,6 @@ pull_request_rules:
     - status-success=license/cla
     - author!=metworkbot
 
-    - status-success=continuous-integration/drone/pr
-
 
 - name: merge action
   actions:
