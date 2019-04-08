@@ -1,7 +1,4 @@
-Title: What's new in MetWork 0.6 ?
-Date: 2019-04-08 12:00:00
-Category: News
-Tags: release-notes, 0.6
+# What's new in MetWork 0.6 ?
 
 The 0.6 release of MetWork modules is available !
 
