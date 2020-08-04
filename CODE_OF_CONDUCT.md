@@ -1,5 +1,7 @@
 # Contributor Covenant Code of Conduct
 
+[//]: # (automatically generated from https://github.com/metwork-framework/github_organization_management/blob/master/common_files/CODE_OF_CONDUCT.md)
+
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
@@ -10,7 +12,7 @@ level of experience, education, socio-economic status, nationality, personal
 appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
-ererere
+
 Examples of behavior that contributes to creating a positive environment
 include:
 
