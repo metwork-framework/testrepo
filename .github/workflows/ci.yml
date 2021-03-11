@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - baptiste-test-github2drone
+
+jobs:
+  ci_build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: trigger_drone
+        run: |
+          docker run -e PLUGIN_REPOSITORIES=metwork-framework/docker-mfservplugins-centos7-buildimage@integration -e DRONE_SERVER=${{ secrets.DRONE_SERVER }} -e DRONE_TOKEN=${{ secrets.DRONE_TOKEN }} metwork/drone-downstream-specific-image:latest 
